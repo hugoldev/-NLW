@@ -6,12 +6,40 @@
 	objectVersion = 77;
 	objects = {
 
+<<<<<<< HEAD
 /* Begin PBXFileReference section */
 		9A81BA552D04DFC7000E1C8A /* NLW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NLW.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
 		9A7951F52D0D2B8600604ACE /* Exceptions for "NLW" folder in "NLW" target */ = {
+=======
+/* Begin PBXContainerItemProxy section */
+		9A81BA702D04DFC8000E1C8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A81BA4D2D04DFC7000E1C8A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A81BA542D04DFC7000E1C8A;
+			remoteInfo = NLW;
+		};
+		9A81BA7A2D04DFC8000E1C8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A81BA4D2D04DFC7000E1C8A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A81BA542D04DFC7000E1C8A;
+			remoteInfo = NLW;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9A81BA552D04DFC7000E1C8A /* NLW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NLW.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A81BA6F2D04DFC8000E1C8A /* NLWTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NLWTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A81BA792D04DFC8000E1C8A /* NLWUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NLWUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		9A81BA812D04DFC8000E1C8A /* Exceptions for "NLW" folder in "NLW" target */ = {
+>>>>>>> f992bf1eb1df1b1c13f3e9850e89e35faa40411b
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
@@ -21,14 +49,34 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+<<<<<<< HEAD
 		9A81BAA72D04E189000E1C8A /* NLW */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
 				9A7951F52D0D2B8600604ACE /* Exceptions for "NLW" folder in "NLW" target */,
+=======
+		9A81BA572D04DFC7000E1C8A /* NLW */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				9A81BA812D04DFC8000E1C8A /* Exceptions for "NLW" folder in "NLW" target */,
+>>>>>>> f992bf1eb1df1b1c13f3e9850e89e35faa40411b
 			);
 			path = NLW;
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
+=======
+		9A81BA722D04DFC8000E1C8A /* NLWTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = NLWTests;
+			sourceTree = "<group>";
+		};
+		9A81BA7C2D04DFC8000E1C8A /* NLWUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = NLWUITests;
+			sourceTree = "<group>";
+		};
+>>>>>>> f992bf1eb1df1b1c13f3e9850e89e35faa40411b
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,13 +87,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+<<<<<<< HEAD
+=======
+		9A81BA6C2D04DFC8000E1C8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A81BA762D04DFC8000E1C8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+>>>>>>> f992bf1eb1df1b1c13f3e9850e89e35faa40411b
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		9A81BA4C2D04DFC7000E1C8A = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
 				9A81BAA72D04E189000E1C8A /* NLW */,
+=======
+				9A81BA572D04DFC7000E1C8A /* NLW */,
+				9A81BA722D04DFC8000E1C8A /* NLWTests */,
+				9A81BA7C2D04DFC8000E1C8A /* NLWUITests */,
+>>>>>>> f992bf1eb1df1b1c13f3e9850e89e35faa40411b
 				9A81BA562D04DFC7000E1C8A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,6 +125,11 @@
 			isa = PBXGroup;
 			children = (
 				9A81BA552D04DFC7000E1C8A /* NLW.app */,
+<<<<<<< HEAD
+=======
+				9A81BA6F2D04DFC8000E1C8A /* NLWTests.xctest */,
+				9A81BA792D04DFC8000E1C8A /* NLWUITests.xctest */,
+>>>>>>> f992bf1eb1df1b1c13f3e9850e89e35faa40411b
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -74,7 +150,11 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
+<<<<<<< HEAD
 				9A81BAA72D04E189000E1C8A /* NLW */,
+=======
+				9A81BA572D04DFC7000E1C8A /* NLW */,
+>>>>>>> f992bf1eb1df1b1c13f3e9850e89e35faa40411b
 			);
 			name = NLW;
 			packageProductDependencies = (
@@ -83,6 +163,55 @@
 			productReference = 9A81BA552D04DFC7000E1C8A /* NLW.app */;
 			productType = "com.apple.product-type.application";
 		};
+<<<<<<< HEAD
+=======
+		9A81BA6E2D04DFC8000E1C8A /* NLWTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A81BA872D04DFC8000E1C8A /* Build configuration list for PBXNativeTarget "NLWTests" */;
+			buildPhases = (
+				9A81BA6B2D04DFC8000E1C8A /* Sources */,
+				9A81BA6C2D04DFC8000E1C8A /* Frameworks */,
+				9A81BA6D2D04DFC8000E1C8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A81BA712D04DFC8000E1C8A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				9A81BA722D04DFC8000E1C8A /* NLWTests */,
+			);
+			name = NLWTests;
+			packageProductDependencies = (
+			);
+			productName = NLWTests;
+			productReference = 9A81BA6F2D04DFC8000E1C8A /* NLWTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9A81BA782D04DFC8000E1C8A /* NLWUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A81BA8A2D04DFC8000E1C8A /* Build configuration list for PBXNativeTarget "NLWUITests" */;
+			buildPhases = (
+				9A81BA752D04DFC8000E1C8A /* Sources */,
+				9A81BA762D04DFC8000E1C8A /* Frameworks */,
+				9A81BA772D04DFC8000E1C8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A81BA7B2D04DFC8000E1C8A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				9A81BA7C2D04DFC8000E1C8A /* NLWUITests */,
+			);
+			name = NLWUITests;
+			packageProductDependencies = (
+			);
+			productName = NLWUITests;
+			productReference = 9A81BA792D04DFC8000E1C8A /* NLWUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+>>>>>>> f992bf1eb1df1b1c13f3e9850e89e35faa40411b
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -96,6 +225,17 @@
 					9A81BA542D04DFC7000E1C8A = {
 						CreatedOnToolsVersion = 16.1;
 					};
+<<<<<<< HEAD
+=======
+					9A81BA6E2D04DFC8000E1C8A = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 9A81BA542D04DFC7000E1C8A;
+					};
+					9A81BA782D04DFC8000E1C8A = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 9A81BA542D04DFC7000E1C8A;
+					};
+>>>>>>> f992bf1eb1df1b1c13f3e9850e89e35faa40411b
 				};
 			};
 			buildConfigurationList = 9A81BA502D04DFC7000E1C8A /* Build configuration list for PBXProject "NLW" */;
@@ -113,6 +253,11 @@
 			projectRoot = "";
 			targets = (
 				9A81BA542D04DFC7000E1C8A /* NLW */,
+<<<<<<< HEAD
+=======
+				9A81BA6E2D04DFC8000E1C8A /* NLWTests */,
+				9A81BA782D04DFC8000E1C8A /* NLWUITests */,
+>>>>>>> f992bf1eb1df1b1c13f3e9850e89e35faa40411b
 			);
 		};
 /* End PBXProject section */
@@ -125,6 +270,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+<<<<<<< HEAD
+=======
+		9A81BA6D2D04DFC8000E1C8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A81BA772D04DFC8000E1C8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+>>>>>>> f992bf1eb1df1b1c13f3e9850e89e35faa40411b
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -135,8 +297,40 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+<<<<<<< HEAD
 /* End PBXSourcesBuildPhase section */
 
+=======
+		9A81BA6B2D04DFC8000E1C8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A81BA752D04DFC8000E1C8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9A81BA712D04DFC8000E1C8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A81BA542D04DFC7000E1C8A /* NLW */;
+			targetProxy = 9A81BA702D04DFC8000E1C8A /* PBXContainerItemProxy */;
+		};
+		9A81BA7B2D04DFC8000E1C8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A81BA542D04DFC7000E1C8A /* NLW */;
+			targetProxy = 9A81BA7A2D04DFC8000E1C8A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+>>>>>>> f992bf1eb1df1b1c13f3e9850e89e35faa40411b
 /* Begin XCBuildConfiguration section */
 		9A81BA832D04DFC8000E1C8A /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -144,17 +338,27 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = NLW/NLW.entitlements;
+<<<<<<< HEAD
 				CODE_SIGN_IDENTITY = "Apple Development";
+=======
+>>>>>>> f992bf1eb1df1b1c13f3e9850e89e35faa40411b
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4A8KKD356C;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = NLW/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+<<<<<<< HEAD
 				INFOPLIST_KEY_UILaunchStoryboardName = SplashViewController;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+=======
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+>>>>>>> f992bf1eb1df1b1c13f3e9850e89e35faa40411b
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -162,11 +366,14 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.hugoldev.NLW;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+<<<<<<< HEAD
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+=======
+>>>>>>> f992bf1eb1df1b1c13f3e9850e89e35faa40411b
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -179,17 +386,27 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = NLW/NLW.entitlements;
+<<<<<<< HEAD
 				CODE_SIGN_IDENTITY = "Apple Development";
+=======
+>>>>>>> f992bf1eb1df1b1c13f3e9850e89e35faa40411b
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4A8KKD356C;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = NLW/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+<<<<<<< HEAD
 				INFOPLIST_KEY_UILaunchStoryboardName = SplashViewController;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+=======
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+>>>>>>> f992bf1eb1df1b1c13f3e9850e89e35faa40411b
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -197,11 +414,14 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.hugoldev.NLW;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+<<<<<<< HEAD
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+=======
+>>>>>>> f992bf1eb1df1b1c13f3e9850e89e35faa40411b
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -327,6 +547,81 @@
 			};
 			name = Release;
 		};
+<<<<<<< HEAD
+=======
+		9A81BA882D04DFC8000E1C8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4A8KKD356C;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hugoldev.NLWTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NLW.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NLW";
+			};
+			name = Debug;
+		};
+		9A81BA892D04DFC8000E1C8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4A8KKD356C;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hugoldev.NLWTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NLW.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NLW";
+			};
+			name = Release;
+		};
+		9A81BA8B2D04DFC8000E1C8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4A8KKD356C;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hugoldev.NLWUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NLW;
+			};
+			name = Debug;
+		};
+		9A81BA8C2D04DFC8000E1C8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4A8KKD356C;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hugoldev.NLWUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NLW;
+			};
+			name = Release;
+		};
+>>>>>>> f992bf1eb1df1b1c13f3e9850e89e35faa40411b
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -348,6 +643,27 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+<<<<<<< HEAD
+=======
+		9A81BA872D04DFC8000E1C8A /* Build configuration list for PBXNativeTarget "NLWTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A81BA882D04DFC8000E1C8A /* Debug */,
+				9A81BA892D04DFC8000E1C8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A81BA8A2D04DFC8000E1C8A /* Build configuration list for PBXNativeTarget "NLWUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A81BA8B2D04DFC8000E1C8A /* Debug */,
+				9A81BA8C2D04DFC8000E1C8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+>>>>>>> f992bf1eb1df1b1c13f3e9850e89e35faa40411b
 /* End XCConfigurationList section */
 	};
 	rootObject = 9A81BA4D2D04DFC7000E1C8A /* Project object */;
